@@ -1,7 +1,7 @@
 <?php
 // run this script to fill in the gap missing from the static `blocks.csv` file in this repository
 // set this to be the height after the last entry in blocks.csv
-$currentHeight = 860589;
+$currentHeight = 861880;
 
 if (isset($argv[1]) && is_int($argv[1])) {
 	$currentHeight = $argv[1];
